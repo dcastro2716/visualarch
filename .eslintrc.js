@@ -50,6 +50,6 @@ module.exports = {
     'max-len': [1, 400, 2],
     'no-console': 'off',
     'no-param-reassign': ['error', { 'props': false }],
-    "eqeqeq": 0,
+    'eqeqeq': 0,
   }
 }

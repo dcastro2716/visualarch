@@ -45,7 +45,6 @@ export default {
             value: true,
           });
         } else {
-          this.$store.commit('deselectAll');
           this.$store.commit('setSelected', {
             id: this.draggingElementId,
             value: true,
