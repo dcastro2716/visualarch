@@ -1,0 +1,33 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+@import '~bulma';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.level-item-menu-superior {
+  margin-right: 0 !important;
+}
+.level-menu-superior {
+  padding-left: 5px;
+}
+.titulo {
+  padding-left: 5px;
+  margin-bottom: 0 !important;
+}
+.logo-bg {
+  background-color: #5dbcd2;
+}
+.menu-superior {
+  margin-bottom: 0 !important;
+}
+.toolbar {
+  border: 1px solid white;
+  background-color: whitesmoke;
+}
+.menu-izquierdo {
+  padding: 10px;
+  background-color: whitesmoke;
+}
