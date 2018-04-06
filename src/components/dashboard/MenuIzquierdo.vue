@@ -17,7 +17,7 @@
           <div class="tile is-parent">
             <div class="tile is-child" @mousedown="mousedown($event, 'Circle')">
               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="70">
-                <circle cx="70" cy="35" r="20" style="stroke: #000;" fill="red" />
+                <circle draggable cx="70" cy="35" r="20" style="stroke: #000;" fill="red" />
               </svg>
               <p class="has-text-centered">Circulo</p>
             </div>

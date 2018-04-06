@@ -11,11 +11,6 @@
       </div>
       <div class="column" style="position:relative">
         <div>
-          <svg ref="svg" xmlns="http://www.w3.org/2000/svg" style="border: 1px solid whitesmoke;width:100%;height:100%;position:absolute;min-width:3218px;min-height:3072;background-image:none">
-            <g>
-              <component :is="crear(object.tipo)" v-bind="{id : object.id}" v-for="object in this.$store.getters.objectsArray" :key="object.id"></component>
-            </g>
-          </svg>
         </div>
       </div>
     </div>
