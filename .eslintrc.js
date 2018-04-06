@@ -51,5 +51,6 @@ module.exports = {
     'no-console': 'off',
     'no-param-reassign': ['error', { 'props': false }],
     'eqeqeq': 0,
+    'arrow-parens': 0,
   }
 }

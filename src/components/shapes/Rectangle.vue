@@ -1,5 +1,5 @@
 <template>
-  <g>
+  <g @mousedown="mousedown">
     <rect :id="id" :x="x" :y="y" :width="width" :height="height" fill="red"></rect>
     <rect :x="x-10" :y="y-10" :width="width+20" :height="height+20" style="stroke: #000;
              stroke-width: 1;
@@ -27,6 +27,11 @@ export default {
     },
     selected() {
       return this.$store.getters.selected.some(e => e.id == this.id);
+    },
+  },
+  methods: {
+    mousedown() {
+      this.$store.commit('setIdDrag', this.id);
     },
   },
 };
